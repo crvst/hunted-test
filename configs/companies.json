@@ -1,0 +1,14 @@
+{
+  "sourcr": {
+    "color": "#d95277",
+    "logoURL": "https://www.hunted.com/svg/sourcr.svg"
+  },
+  "trustpilot": {
+    "color": "#4db37e",
+    "logoURL": "https://www.hunted.com/svg/trustpilot.svg"
+  },
+  "glassdoor": {
+    "color": "#28b139",
+    "logoURL": "https://www.hunted.com/svg/glassdoor.svg"
+  }
+}

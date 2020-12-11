@@ -1,0 +1,49 @@
+@import "./assets/styles/variables";
+
+.root {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 200px;
+  text-align: center;
+  margin: ($gutter * 2) ($gutter * 4);
+}
+
+.inner {
+  align-items: center;
+  border-radius: 4px;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: ($gutter * 0.5);
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.inner:hover {
+  background-color: $color-gray;
+}
+
+.inner:focus-visible {
+  outline: 2px solid $color-gray;
+}
+
+.image {
+  padding-bottom: $gutter;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.caption {
+  padding-top: ($gutter * 0.5);
+  color: gray;
+}

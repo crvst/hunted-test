@@ -1,0 +1,21 @@
+@import "./assets/styles/variables";
+
+.root {
+  overflow: hidden;
+  width: 20px;
+}
+
+.inner {
+  align-items: center;
+  border-radius: 3px;
+  display: flex;
+  flex: 20px 0 0;
+  height: 20px;
+  justify-content: center;
+  text-align: center;
+  width: 20px;
+}
+
+.root:not(:first-child) {
+  margin-left: $gutter;
+}

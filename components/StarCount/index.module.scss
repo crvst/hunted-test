@@ -1,0 +1,22 @@
+@import "./assets/styles/variables";
+
+.root {
+  position: relative;
+}
+
+.group {
+  display: flex;
+  position: relative;
+}
+
+.actual {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.total {
+  position: relative;
+  z-index: 1;
+}

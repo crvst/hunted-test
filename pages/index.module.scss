@@ -1,0 +1,18 @@
+@import "./assets/styles/variables";
+
+.section {
+  background-color: $color-white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin: $gutter auto;
+  max-width: 1200px;
+  padding: ($gutter * 2) ($gutter * 2) ($gutter * 5);
+}
+
+.title {
+  font-size: 1.2rem;
+  margin: 0;
+  padding-bottom: ($gutter * 7);
+  text-transform: uppercase;
+}
