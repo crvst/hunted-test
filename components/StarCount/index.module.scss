@@ -6,7 +6,6 @@
 
 .group {
   display: flex;
-  position: relative;
 }
 
 .actual {
@@ -17,6 +16,6 @@
 }
 
 .total {
-  position: relative;
   z-index: 1;
+  position: relative;
 }
